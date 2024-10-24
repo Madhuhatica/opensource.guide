@@ -1,3 +1,17 @@
+/**
+ * Initializes document-wide click handlers and table of contents (ToC) toggle functionality.
+ * This method sets up event listeners for hiding the ToC when clicking outside,
+ * and toggling the ToC visibility when clicking on the trigger element.
+ *
+ * @param {void} No parameters
+ * @returns {void} This function does not return a value
+ *
+ * @example
+ * // This function is typically called when the DOM is ready:
+ * $(function() {
+ *   // Function body here
+ * });
+ */
 $(function() {
     $(document).click(function() {
       // Hiding ToC
