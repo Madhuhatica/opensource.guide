@@ -2,6 +2,14 @@
 layout:
 ---
 
+/**
+ * Initializes and manages a search functionality for a web page.
+ * This function sets up event listeners for DOM content loading and browser history changes,
+ * handles search input, updates the browser history, and displays search results.
+ * It also manages the creation and communication with a Web Worker for performing searches.
+ *
+ * @returns {void} This function doesn't return a value.
+ */
 (function() {
 
 var searchWorker;
